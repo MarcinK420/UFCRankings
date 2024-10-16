@@ -34,6 +34,7 @@ details {
     flex-direction: column;
     justify-content: space-between;
     transition: transform 0.2s ease-in-out;
+    margin: 20px 0;
 }
 
 details:hover {
@@ -44,14 +45,18 @@ summary {
     display: flex;
     align-items: center;
     cursor: pointer;
+    font: bolder;
     font-weight: bold;
+    font-size: 80px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 summary img {
-    width: 60px;
-    height: 60px;
+    width: 150px;
+    height: 100px;
     border-radius: 50%;
-    margin-right: 20px;
+    margin-right: 100px;
 }
 
 summary:hover {
