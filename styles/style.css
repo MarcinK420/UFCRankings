@@ -1,0 +1,5 @@
+body { font-family: Arial, sans-serif; }
+details { margin-bottom: 20px; }
+summary img { width: 100px; }
+table, ol { width: 100%; border-collapse: collapse; }
+th, td { border: 1px solid #000; padding: 8px; text-align: left; }

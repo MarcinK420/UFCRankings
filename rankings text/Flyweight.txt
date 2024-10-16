@@ -1,0 +1,17 @@
+Dywizja: Flyweight
+Mistrz: Alexandre Pantoja
+#1: Brandon Royval
+#2: Brandon Moreno
+#3: Amir Albazi
+#4: Kai Kara-France
+#5: Tatsuro Taira
+#6: Alex Perez
+#7: Matheus Nicolau
+#8: Steve Erceg
+#9: Manel Kape
+#10: Tim Elliott
+#11: Tagir Ulanbekov
+#12: Bruno Silva
+#13: Cody Durden
+#14: Asu Almabayev
+#14: Matt Schnell
