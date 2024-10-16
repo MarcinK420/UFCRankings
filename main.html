@@ -9,25 +9,28 @@
 <body>
     <h1>UFC Rankings</h1>
 
-    <!-- Division Template -->
-    <template id="division-template">
-        <details>
-            <summary>
-                <img src="" alt="" class="division-img">
-                <span class="division-name"></span>
-            </summary>
-            <p><strong>Champion:</strong> <span class="champion-name"></span></p>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Rank</th>
-                        <th>Fighter</th>
-                    </tr>
-                </thead>
-                <tbody class="fighters-list"></tbody>
-            </table>
-        </details>
-    </template>
+    <!-- Grid container for divisions -->
+    <div class="grid-container">
+        <!-- Division Template -->
+        <template id="division-template">
+            <details>
+                <summary>
+                    <img src="" alt="" class="division-img">
+                    <span class="division-name"></span>
+                </summary>
+                <p><strong>Champion:</strong> <span class="champion-name"></span></p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Fighter</th>
+                        </tr>
+                    </thead>
+                    <tbody class="fighters-list"></tbody>
+                </table>
+            </details>
+        </template>
+    </div>
 
     <script src="scripts/divisions.js"></script>
 </body>

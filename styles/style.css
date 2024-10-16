@@ -1,5 +1,108 @@
-body { font-family: Arial, sans-serif; }
-details { margin-bottom: 20px; }
-summary img { width: 100px; }
-table, ol { width: 100%; border-collapse: collapse; }
-th, td { border: 1px solid #000; padding: 8px; text-align: left; }
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+/* Grid container for divisions */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Flexible grid with 300px min card size */
+    gap: 20px;
+    padding: 10px;
+    max-width: 1200px;
+    margin: 0 auto; /* Center the grid container */
+}
+
+/* Each division card */
+details {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s ease-in-out;
+}
+
+details:hover {
+    transform: scale(1.05); /* Hover effect to emphasize division cards */
+}
+
+summary {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+summary img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+summary:hover {
+    color: #007bff;
+}
+
+table {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #007bff;
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    font-size: 1rem;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+strong {
+    color: #444;
+}
+
+.details summary span {
+    font-size: 1.5rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    summary {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    summary img {
+        margin: 0 0 10px 0;
+    }
+}
